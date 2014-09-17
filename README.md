@@ -10,10 +10,10 @@ This is a collection of python scripts and Hadoop mapreduce jobs to identify on 
 Usage
 -----
 
-# Download the an gzipped N-Quad data set [like this](http://data.dws.informatik.uni-mannheim.de/lodcloud/2014/ISWC-RDB/dump.nq.gz).
-# Change the 'Config.py' entries.
-# Excecute the python script 'ExtractURIs.py' in the 'python' folder.
-# Use the newly generated file as input for the Hadoop mapreduce job "UriPositionAnalysisRunner" in the 'Java' folder.
+1. Download the an gzipped N-Quad data set [like this](http://data.dws.informatik.uni-mannheim.de/lodcloud/2014/ISWC-RDB/dump.nq.gz).
+2. Change the 'Config.py' entries.
+3. Excecute the python script 'ExtractURIs.py' in the 'python' folder.
+4. Use the newly generated file as input for the Hadoop mapreduce job "UriPositionAnalysisRunner" in the 'Java' folder.
 Additionally:
 * You can use the 'CountURIs.py" python script to do some statistical analysis like how many URIs occur how often in which position.
 
